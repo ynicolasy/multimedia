@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia</title>
+</head>
+<body>
+  
+  <header>
+
+  </header>
+
+  <main>
+
+    <section id="imagenes">
+      <h3>Imagen img</h3>
+      <p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg/330px-Sir_Tim_Berners-Lee_%28cropped%29.jpg" alt="Tim Berners Lee el padre de la web">
+      </p>
+      <h3>VR 46</h3>
+      <img src="img/ducati.jpg" alt="motovehículo ducati de carrera">
+      
+      <h3>Etiqueta Picture</h3>
+      <picture>
+        <source media="(min-width: 650px)" srcset="img/paper_mario.png">
+        <source media="(min-width: 465px)" srcset="img/mario_leaf_grande.png">
+        <img src="img/mario_peque.png" style="width: auto;" alt="Imágen de Super Mario">
+      </picture> 
+
+      <h3>Formatos de imágenes</h3>
+
+      <h4>Logo svg</h4>
+      <img src="img/logo.svg" alt="logo de moto gp">
+
+      <h4>Mario.jpg</h4>
+      <img src="img/mario3.jpg" alt="imágen de mario bros">
+    </section>
+
+    <section id="audio">
+      <h3>Audio</h3>
+      <audio controls autoplay>
+        <source src="media/Vivaldi-Winter.mp3" type="audio/mpeg">
+        El navegador no soporta la etiqueta "audio".
+      </audio>
+    </section>
+
+    <section id="videos">
+      <h3>Video</h3>
+      <video width="320" height="240" poster="img/389px-Vivaldi.jpg" preload="none" controls>
+        <source src="media/vivaldi.mp4" type="video/mp4">
+        <track src="media/subs-es.vtt" srclang="es" label="Español" default>
+        <track src="media/subs-en.vtt" srclang="en" label="English">
+        El navegador no soporta la etiqueta "video".
+      </video>
+    </section>
+
+  </main>
+
+  <footer>
+
+  </footer>
+
+</body>
+</html>
